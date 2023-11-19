@@ -6,3 +6,13 @@ function StickNavBar() {
 }
 
 window.addEventListener("scroll", StickNavBar);
+
+
+const process = document.querySelectorAll(".processPhases");
+
+console.log(process)
+process.forEach((processPhases) => {
+  processPhases.addEventListener("click", () => {
+    processPhases.classList.toggle("active")
+  })
+});
