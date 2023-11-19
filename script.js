@@ -8,9 +8,21 @@ function StickNavBar() {
 window.addEventListener("scroll", StickNavBar);
 
 
+
+
+const scrollIcon = document.querySelector(".scroll-icon")
+
+function ScrollMenu () {
+  scrollIcon.classList.toggle("active", window.scrollY > 80);
+}
+
+window.addEventListener("scroll", ScrollMenu)
+
+
+
+
 const process = document.querySelectorAll(".processPhases");
 
-console.log(process)
 process.forEach((processPhases) => {
   processPhases.addEventListener("click", () => {
     processPhases.classList.toggle("active")

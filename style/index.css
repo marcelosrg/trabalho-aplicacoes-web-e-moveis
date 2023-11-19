@@ -11,6 +11,10 @@ header {
      justify-content: space-between;
 }
 
+html {
+     scroll-behavior: smooth;
+}
+
 .logo {
      cursor: pointer;
      margin-left: 6rem;
@@ -95,16 +99,27 @@ header {
      position: absolute;
      bottom: 0;
      right: 0;
-     margin: 6rem 2rem;
+     margin: 3rem 2rem;
+     position: fixed;
 }
 
 .scroll-icon img {
-     width: 60px;
+     width: 50px;
      animation-name: upDown;
      animation-duration: 2s;
      animation-timing-function: ease-in-out;
      animation-iteration-count: infinite;
 }
+
+
+.scroll-icon.active svg {
+     transform: rotate(180deg);
+}
+
+.scroll-icon svg {
+     transition: transform .5s ease-in;
+}
+
 
 @keyframes upDown {
      0% {
@@ -206,8 +221,9 @@ header {
 .cards-services .lpl,
 .institucional {
      width: 50%;
-     background-color: #D9D9D933;
      border-radius: 5px;
+     background: rgba(35, 35, 35, 0.2);
+     backdrop-filter: blur(12.5px);
 }
 
 .cards-services .lpl h2, p, .institucional h2, p {
@@ -349,6 +365,7 @@ header {
 .question h3 {
      color: var(--secondary-color);
      font-size: 46px;
+     
 }
 
 .answer {
