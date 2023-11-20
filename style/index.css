@@ -133,24 +133,27 @@ html {
 @media only screen and (max-width: 768px) {
      .hero-content>h1 {
           font-size: 62px;
+          margin-top: 0.8rem;
      }
 
      .hero-content>h2 {
           font-size: 28px;
+          margin-top: 0.8rem;
      }
 
      .hero-content>p {
           font-size: 16px;
+          line-height: 1.8;
           margin-left: -0.8rem;
           margin-top: 0.5rem;
      }
 
      .btn-hero {
-          margin-top: 1rem;
+          margin-top: 2rem;
      }
 
      .scroll-icon {
-          top: 87vh;
+          top: 85vh;
           margin: 0 1rem;
           
      }
@@ -199,7 +202,7 @@ html {
 
 @media only screen and (max-width: 768px) {
      .skill-section {
-          margin-top: 125vh;
+          margin-top: 110vh
      }
 
      .skill-icons ul {
@@ -280,12 +283,12 @@ html {
 @media only screen and (max-width: 768px) {
      .title-content::after {
           width: 55px;
-          right: 15rem;
+          right: 18rem;
      }
 
      .title-content::before {
           width: 55px;
-          left: 15rem;
+          left: 18rem;
      }
 
      .cards-services {
@@ -527,7 +530,7 @@ html {
      
      .process-title {
           max-width: 15rem;
-          margin-left: -2.3rem;
+          margin-left: -6.5rem;
      }
      .process-title::after {
           left: 14rem;
