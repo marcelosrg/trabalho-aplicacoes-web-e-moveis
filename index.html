@@ -1,403 +1,263 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/global.css" />
-    <link rel="stylesheet" href="./style/index.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <div class="btn-menu">
-        <img src="./public/assets/btn - menu.svg" alt="botão de menu" />
-      </div>
-      <div class="logo">
-        <img src="./public/assets/logo.svg" alt="logo do portfolio" />
-      </div>
-      <div class="social">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/global.css" />
+  <link rel="stylesheet" href="./style/index.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./public/assets/logo.svg" alt="logo do portfolio" />
+    </div>
+    <div class="social">
+      <nav class="menu-navegacao">
         <ul>
-          <li>
-            <a href=""
-              ><img
-                src="./public/assets/facebook-icon.svg"
-                alt="icone do facebook"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./public/assets/instagram-icon.svg"
-                alt="icone do instagram"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./public/assets/linkedin-svg.svg"
-                alt="icone do linkedin"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./public/assets/twither-icon.svg"
-                alt="icone do twither"
-            /></a>
-          </li>
+          <li><a href="#sobre-mim">Sobre Mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
-      </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-      <section id="home" class="hero-section">
-        <div class="hero-content container">
-          <h2 id="title-division ">Olá, eu sou o</h2>
-          <h1>Marcelo</h1>
-          <h2 >um desenvolvedor web</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur in quisque varius eget
-            <br />turpis sollicitudin purus arcu morbi lorem lacus sit in tellus
-            dolor eget.
-          </p>
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-content container">
+        <h2 id="title-division ">Olá, eu sou o</h2>
+        <h1>Marcelo</h1>
+        <h2>um desenvolvedor web</h2>
+        <p>
+          Apaixonado por transformar ideias em experiências digitais, trabalho com soluções frontend e backend para
+          criar sites e aplicações que combinam funcionalidade e design. Com experiência em HTML, CSS, JavaScript e
+          frameworks modernos, meu objetivo é desenvolver projetos que não apenas atendam às necessidades do cliente,
+          mas também proporcionem uma navegação intuitiva para os usuários. Estou sempre em busca de novos desafios e
+          aprendizados que me permitam expandir meus horizontes no universo do desenvolvimento web.
+        </p>
 
-          <div class="btn-hero">
-            <div class="contact-btn icon-btn ">
-              <a href="#">Contato</a>
-              <img src="./public/assets/btn-icon.svg"  alt="icone de seta para cta"/>
-            </div>
-
-            <div class="portfolio-btn icon-btn">
-              <a href="#">Portfolio</a>
-              <img src="./public/assets/btn-icon.svg" alt="icone de seta para cta"/>
-            </div>
-
-            <div class="scroll-icon">
-              <a href="#home">
-                <svg xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93" fill="none">
-                  <circle cx="46.5" cy="46.5003" r="45" transform="rotate(-0.48613 46.5 46.5003)" stroke="white"/>
-                  <path d="M66.4982 48.0886L46.9244 67.9974L27.0156 48.4236" stroke="white" stroke-width="2" stroke-linecap="square"/>
-                  <path d="M46.9107 66.3616L46.5682 25.999" stroke="white" stroke-width="2" stroke-linecap="square"/>
-                </svg>
-              </a>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="skill-section container">
-        <div class="skill-content">
-          <h2 class="left">Skills</h2>
-          <p class="bottom">
-            Algumas das tecnologias que aprendi ao longo do tempo como<br />
-            desenvolvedor web
-          </p>
-          <div class="skill-icons">
-            <ul>
-              <li class="icon-skill">
-                <img src="./public/assets/figma-icon.svg" alt="icone do figma"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/html-icon.svg" alt="icone do html"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/css-icon.svg" alt="icone do css"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/js-icon.svg" alt="icone do javascript"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/react-icon.svg" alt="icone do react" />
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/node-icon.svg"  alt="icone do nodeJs"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/mongodb-icon.svg" alt="icone do mongoDb"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/postgress-icon.svg"  alt="icone do postgresSql"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/next-icon.svg" alt="icone do nextJs" />
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/Redux.svg" alt="icone do redux" />
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/tailwind-icon.svg" alt="icone do tailwind"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/express-icon.svg" alt="icon do express"/>
-              </li>
-              <li class="icon-skill">
-                <img src="./public/assets/wordpress-icon.svg" alt="icon do wordpress" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-   <section class="services container">
-        <div class="content">
-          <h2 class="title-content bottom">Meus Serviços</h2>
-          <div class="cards-services">
-            <div class="lpl left">
-              <img src="./public/assets/institucional.png" alt="imagem ilustrativa de uma Landing Page" />
-              <h2>Landing Pages</h2>
-              <p>
-                Páginas de vendas, captura, obrigado, aquecimento, blog de
-                lançamento
-              </p>
-            </div>
-            <div class="institucional right">
-              <img src="./public/assets/institucional.png" alt="imagem ilustrativa de um site institucional" />
-              <h2>Sites Institucionais</h2>
-              <p>Sites para sua empresa apresentar seus serviços e produtos</p>
-            </div>
-          </div>
-          <div class="cta-btn icon-btn">
-            <a href="#">Faça o seu orçamento</a>
+        <div class="btn-hero">
+          <div class="contact-btn icon-btn ">
+            <a href="#">Contato</a>
             <img src="./public/assets/btn-icon.svg" alt="icone de seta para cta" />
           </div>
-        </div>
-      </section> 
 
-      <section class="about container">
-        <div class="about-wrapper">
-          <div class="about-content right">
-            <h2 class="title-about">Sobre mim</h2>
-            <p class="about-info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem mollitia nisi laudantium tenetur culpa impedit qui
-              molestiae nobis non, placeat possimus, consectetur est,
-              necessitatibus deserunt molestias amet reiciendis rem obcaecati?
+          <div class="portfolio-btn icon-btn">
+            <a href="#">Portfolio</a>
+            <img src="./public/assets/btn-icon.svg" alt="icone de seta para cta" />
+          </div>
+
+          <div class="scroll-icon">
+            <a href="#home">
+              <svg xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93" fill="none">
+                <circle cx="46.5" cy="46.5003" r="45" transform="rotate(-0.48613 46.5 46.5003)" stroke="white" />
+                <path d="M66.4982 48.0886L46.9244 67.9974L27.0156 48.4236" stroke="white" stroke-width="2"
+                  stroke-linecap="square" />
+                <path d="M46.9107 66.3616L46.5682 25.999" stroke="white" stroke-width="2" stroke-linecap="square" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skill-section container">
+      <div class="skill-content">
+        <h2 class="left">Skills</h2>
+        <p class="bottom">
+          Algumas das tecnologias que aprendi ao longo do tempo como<br />
+          desenvolvedor web
+        </p>
+        <div class="skill-icons">
+          <ul>
+            <li class="icon-skill">
+              <img src="./public/assets/figma-icon.svg" alt="icone do figma" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/html-icon.svg" alt="icone do html" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/css-icon.svg" alt="icone do css" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/js-icon.svg" alt="icone do javascript" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/react-icon.svg" alt="icone do react" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/node-icon.svg" alt="icone do nodeJs" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/mongodb-icon.svg" alt="icone do mongoDb" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/postgress-icon.svg" alt="icone do postgresSql" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/next-icon.svg" alt="icone do nextJs" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/Redux.svg" alt="icone do redux" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/tailwind-icon.svg" alt="icone do tailwind" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/express-icon.svg" alt="icon do express" />
+            </li>
+            <li class="icon-skill">
+              <img src="./public/assets/wordpress-icon.svg" alt="icon do wordpress" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about container" id="sobre-mim">
+      <div class="about-wrapper">
+        <div class="about-content right">
+          <h2 class="title-about">Sobre mim</h2>
+          <p class="about-info">
+            Olá, meu nome é Marcelo. Iniciei minha trajetória no desenvolvimento web em 2022 como desenvolvedor frontend
+            em uma agência de marketing, onde era responsável pela criação de sites institucionais, landing pages e
+            outros tipos de páginas web. No dia a dia, utilizava tecnologias como HTML, CSS, JavaScript, Bootstrap,
+            entre outras ferramentas voltadas para o desenvolvimento frontend.
+            Com o tempo, comecei a aprofundar meus estudos em desenvolvimento de APIs e, atualmente, meu foco está na
+            parte de servidor (BackEnd), utilizando tecnologias como Java, Spring Boot e bancos de dados SQL e NoSQL.
+            Atualmente, trabalho como analista de dados em um centro universitário, onde atuo na elaboração de
+            relatórios no sistema TOTVs RM, utilizando SQL Server para consultas no banco de dados da instituição.
+          </p>
+          <div class="contagem">
+            <h3>1+<br /><span>anos de experiência</span></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="experience-content left">
+          <h2 class="title-experience">Experiência</h2>
+          <p class="about-info">
+            Atualmente trabalho como Analista de Dados em um centro universitário, onde sou responsável pela elaboração
+            de relatórios no sistema TOTVs RM, utilizando SQL Server para consultas no banco de dados da instituição.
+            Nesta função, extraio e analiso dados para fornecer insights e apoiar a tomada de decisões.
+
+            Iniciei minha carreira profissional em 2022 como Desenvolvedor Frontend em uma agência de marketing. Nesta
+            posição, fui responsável pela criação de sites institucionais, landing pages e outras interfaces web,
+            utilizando tecnologias como HTML, CSS, JavaScript e Bootstrap.
+
+            Durante minha trajetória profissional, venho aprofundando meus conhecimentos em desenvolvimento backend, com
+            foco em Java, Spring Boot e bancos de dados SQL e NoSQL, expandindo assim minhas competências para além do
+            desenvolvimento frontend.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-wrapper" id="formacao">
+        <div class="about-content right">
+          <h2 class="title-about">Formação Acadêmica</h2>
+          <p class="about-info">
+            Atualmente estou cursando Engenharia de Software, onde desenvolvo uma sólida base teórica em algoritmos,
+        estruturas de dados, arquitetura de software e metodologias ágeis. Paralelamente à graduação, invisto em minha
+        especialização técnica através de um curso focado em desenvolvimento backend com Java, aprofundando
+        conhecimentos em Spring Boot, APIs RESTful, bancos de dados relacionais e não-relacionais. Esta combinação de
+        formação acadêmica com capacitação técnica específica me proporciona tanto o entendimento dos fundamentos da
+        engenharia de software quanto as habilidades práticas para implementação de soluções robustas e escaláveis no
+        mercado de trabalho.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="portfolio container" id="portfolio">
+      <h2 class="title-content bottom">Meu Portfólio</h2>
+      <div class="projects-container">
+        <div class="card-project">
+          <div class="project-info">
+            <h2 class="top">Projeto de Exemplo</h2>
+            <p class="left">
+              Lorem ipsum dolor sit amet consectetur in quisque varius eget
+              turpis sollicitudin purus arcu morbi lorem lacus sit in tellus dolor eget.
             </p>
-            <div class="contagem">
-              <h3>1+<br /><span>anos de experiência</span></h3>
-              <h3>20+<br /><span>projetos concluidos</span></h3>
-            </div>
+          </div>
+          <div class="project-image right">
+            <img src="./public/assets/Mask group.png" alt="imagem ilustrativa de projeto">
           </div>
         </div>
 
-        <div class="experience-wrapper">
-          <div class="experience-content left">
-            <h2 class="title-experience">Experiência</h2>
-            <p class="about-info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem mollitia nisi laudantium tenetur culpa impedit qui
-              molestiae nobis non, placeat possimus, consectetur est,
-              necessitatibus deserunt molestias amet reiciendis rem obcaecati?
+        <div class="card-project2">
+          <div class="project-info2">
+            <h2 class="bottom">Projeto de Exemplo</h2>
+            <p class="right">
+              Lorem ipsum dolor sit amet consectetur in quisque varius eget
+              turpis sollicitudin purus arcu morbi lorem lacus sit in tellus dolor eget.
             </p>
-            <div class="icon-btn">
-              <a href="#">Faça o seu orçamento</a>
-              <img src="./public/assets/btn-icon.svg" alt="icone de seta para cta" />
-            </div>
+          </div>
+          <div class="project-image left">
+            <img src="./public/assets/Mask group.png" alt="imagem ilustrativa de projeto">
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="portfolio container">
-        <h2 class="title-content bottom">Meu Portfólio</h2>
-        <div class="projects-container">
-          <div class="card-project">
-            <div class="project-info">
-              <h2 class="top">Projeto de Exemplo</h2>
-              <p class="left">
-                A web app for visualizing personalized Spotify data. View your top
-                artists, top tracks, recently played tracks, and detailed audio
-                information about each track. Create and save new playlists of
-                recommended tracks based on your existing playlists and more.
-              </p>
-            </div>
-            <div class="project-image right">
-              <img src="./public/assets/Mask group.png" alt="imagem ilustrativa de projeto">
-            </div>
+    <section id="contato">
+      <div class="formulario-contato">
+        <h2>Entre em Contato</h2>
+
+        <form id="contato-form">
+          <div class="campo-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
           </div>
 
-          <div class="card-project2">
-            <div class="project-info2">
-              <h2 class="bottom">Projeto de Exemplo</h2>
-              <p  class="right">
-                A web app for visualizing personalized Spotify data. View your top
-                artists, top tracks, recently played tracks, and detailed audio
-                information about each track. Create and save new playlists of
-                recommended tracks based on your existing playlists and more.
-              </p>
-            </div>
-            <div class="project-image left">
-              <img src="./public/assets/Mask group.png" alt="imagem ilustrativa de projeto">
-            </div>
+          <div class="campo-form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
           </div>
-        </div>
-      </section>
 
-      <section class="process container">
-        <div class="process-content">
-          <h2 class="process-title left">Meu processo de trabalho</h2>
-          <div class=" cta-mobile top icon-btn">
-            <a href="#">Faça o seu orçamento</a>
-            <img src="./public/assets/btn-icon.svg" alt="icone de seta para cta"/>
+          <div class="campo-form">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
           </div>
-        </div>
-        
-        <div class="processPhases accordion_item bottom">
-          <div class="question accordion_header">
-            <h3>Proposta</h3>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer accordion_content">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
+          <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
 
-        <div class="processPhases bottom">
-          <div class="question">
-            <h3>Briefing</h3>
+  </main>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: true,
+      distance: '0px',
+      duration: 2500,
+      delay: 500
+    });
 
-        <div class="processPhases bottom">
-          <div class="question">
-            <h3>Pesquisa</h3>
+    ScrollReveal().reveal('.left', { delay: 100, origin: 'left' });
+    ScrollReveal().reveal('.right', { delay: 100, origin: 'right' });
+    ScrollReveal().reveal('.bottom', { delay: 100, origin: 'bottom' });
+    ScrollReveal().reveal('.top', { delay: 100, origin: 'top' });
+    ScrollReveal().reveal('.icon-skill > img', { delay: 200, origin: 'bottom', interval: 200 });
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
-
-        <div class="processPhases bottom">
-          <div class="question">
-            <h3>Desing</h3>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
-
-        <div class="processPhases bottom">
-          <div class="question">
-            <h3>Desenvolvimento</h3>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
-
-        <div class="processPhases bottom">
-          <div class="question">
-            <h3>Apresentação/ Etrega</h3>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
-
-        <div class="processPhases bottom">
-          <div class="question">
-            <h3>Proposta</h3>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
-              <path d="M0.492004 1.601L12.168 13.277L23.816 1.601L22.248 0.00500488L12.168 10.085L2.088 0.00500488L0.492004 1.601Z" fill="white"/>
-            </svg>
-          </div>
-          <div class="answer">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nostrum quia veritatis libero incidunt debitis! Accusantium quis laboriosam temporibus totam quibusdam, quidem quasi incidunt, inventore aut vel facere maxime fuga?</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- <section class="cta-section container">
-        <h2>Tem uma ideia?</h2>
-        <h3>Vamos trabalhar.</h3>
-        <div class="contacts">
-          <div class="social">
-            <ul>
-              <li>
-                <a href=""
-                  ><img
-                    src="./public/assets/facebook-icon.svg"
-                    alt="icone do facebook"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    src="./public/assets/instagram-icon.svg"
-                    alt="icone do instagram"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    src="./public/assets/linkedin-svg.svg"
-                    alt="icone do linkedin"
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    src="./public/assets/twither-icon.svg"
-                    alt="icone do twither"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="icon-btn">
-            <a href="#">contato</a>
-            <img src="./public/assets/btn-icon.svg" />
-          </div>
-        </div>
-      </section> -->
-    </main>
-
-    <script src="./script.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({
-        reset: true,
-        distance: '0px',
-        duration: 2500,
-        delay: 500
-      });
-
-      ScrollReveal().reveal('.left', { delay: 100, origin: 'left' });
-      ScrollReveal().reveal('.right', { delay: 100, origin: 'right' });
-      ScrollReveal().reveal('.bottom', { delay: 100, origin: 'bottom' });
-      ScrollReveal().reveal('.top', { delay: 100, origin: 'top' });
-      ScrollReveal().reveal('.icon-skill > img', { delay: 200, origin: 'bottom', interval: 200 });
-     
-    </script>
-
-<script type="text/javascript" src="./block.js">
-  
   </script>
-  </body>
+
+  <script type="text/javascript" src="./block.js">
+
+  </script> 
+</body>
+
 </html>

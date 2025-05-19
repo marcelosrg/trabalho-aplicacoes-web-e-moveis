@@ -5,9 +5,11 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Inter', sans-serif;
-   
-}
 
+}
+html {
+     scroll-padding-top: 90px;
+   }
 
 :root{
      --primary-color: #060606;
@@ -28,13 +30,13 @@ a {
      display: flex;
      align-items: center;
      gap: 1.5rem;
-     
+
      width: fit-content;
      padding: 0.6rem 0.3rem;
-     
+
      border-bottom: 2px solid var(--secondary-color);
      border-radius: 2px;
-} 
+}
 ul {
      list-style: none;
 }
